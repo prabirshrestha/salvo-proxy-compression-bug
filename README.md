@@ -1,14 +1,14 @@
 # compression bug in salvo
 
 ```
-git clone ....
-cd salvobug
-cargo run # starts salvo server in http://0.0.0.0:7878
+git clone https://github.com/prabirshrestha/salvo-proxy-compression-bug.git
+cd salvo-proxy-compression-bug
+cargo run           # starts salvo server in http://0.0.0.0:7878
 
 # in another tab/window
 cd client
 npm install
-npm start # starts create-react-app in http://0.0.0.0:3000
+npm start       # starts create-react-app in http://0.0.0.0:3000
 ```
 
 * Open safari in iphone/ipad
